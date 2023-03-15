@@ -18,14 +18,11 @@ describe('RecipeBook.cy.ts', () => {
   })
 
   it('recipes should have 0 recipes initially', () => {
-    cy.wrap(recipeBook).then((recipeBook) => {
-      expect(recipeBook.component.recipes.length).to.equal(0);
-    })
+    cy.wrap(recipeBook.component).its('recipes.length').should('eq', 0)
   })
 
   it('recipes should have a list of recipes', () => {
-    cy.wrap(recipeBook).then((recipeBook) => {
-      expect( recipeBook.component.recipes.length).to.greaterThan(0);
-    })
+    // cy.wrap(recipeBook.component).invoke('loadRecipes')
+    cy.wrap(recipeBook.component).its('recipes.length').should('be.greaterThan', 0)
   })
 })
