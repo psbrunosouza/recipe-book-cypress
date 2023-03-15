@@ -1,0 +1,60 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipe": "French Fries",
+      "author": "Moeb",
+      "comments": ["Very good", "Awesome"],
+      "ingredients": ["Potatoes", "Salt", "Oil"]
+    },
+    {
+      "id": 2,
+      "recipe": "Spaghetti Bolognese",
+      "author": "Anna",
+      "comments": ["Delicious", "My favorite!"],
+      "ingredients": ["Spaghetti", "Ground beef", "Tomato sauce", "Onion", "Garlic", "Oregano", "Salt", "Pepper"]
+    },
+    {
+      "id": 3,
+      "recipe": "Tuna Salad",
+      "author": "John",
+      "comments": [],
+      "ingredients": ["Canned tuna", "Lettuce", "Tomatoes", "Cucumbers", "Bell peppers", "Onions", "Olives", "Olive oil", "Vinegar"]
+    },
+    {
+      "id": 4,
+      "recipe": "Chocolate Cake",
+      "author": "Lisa",
+      "comments": ["Decadent", "Amazing"],
+      "ingredients": ["Flour", "Sugar", "Cocoa powder", "Baking powder", "Salt", "Milk", "Eggs", "Butter"]
+    },
+    {
+      "id": 5,
+      "recipe": "Mushroom Risotto",
+      "author": "Moeb",
+      "comments": ["Fantastic"],
+      "ingredients": ["Arborio rice", "Mushrooms", "Onion", "Garlic", "Chicken broth", "White wine", "Parmesan cheese"]
+    },
+    {
+      "id": 6,
+      "recipe": "Greek Salad",
+      "author": "Anna",
+      "comments": ["Healthy", "Refreshing"],
+      "ingredients": ["Tomatoes", "Cucumbers", "Red onion", "Bell pepper", "Feta cheese", "Kalamata olives", "Olive oil", "Red wine vinegar"]
+    },
+    {
+      "id": 7,
+      "recipe": "Beef Stew",
+      "author": "John",
+      "comments": ["Hearty", "Satisfying"],
+      "ingredients": ["Stewing beef", "Potatoes", "Carrots", "Onion", "Garlic", "Beef broth", "Red wine", "Tomato paste", "Thyme", "Bay leaf", "Salt", "Pepper"]
+    },
+    {
+      "id": 8,
+      "recipe": "Roasted Chicken",
+      "author": "Lisa",
+      "comments": ["Juicy", "Perfectly cooked"],
+      "ingredients": ["Whole chicken", "Lemon", "Garlic", "Rosemary", "Salt", "Pepper", "Olive oil"]
+    }
+  ]
+}
