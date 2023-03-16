@@ -1,0 +1,20 @@
+<div>
+  <h2 data-cy="recipe">{{recipe.recipe}}</h2>
+  <p data-cy="author">{{recipe.author}}</p>
+  <div *ngIf="!!recipe.comments.length; else noCommentsFound">
+    <div class="comments" *ngFor="let comment of recipe.comments">{{comment}}</div>
+  </div>
+  <div >
+    <div *ngIf="!!recipe.ingredients.length; else noIngredientsFound">
+      <div class="ingredients" *ngFor="let ingredient of recipe.ingredients">{{ingredient}}</div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noCommentsFound>
+  <div data-cy="no-comments-found">no comments found</div>
+</ng-template>
+
+<ng-template #noIngredientsFound>
+  <div data-cy="no-ingredients-found">no ingredients found</div>
+</ng-template>
